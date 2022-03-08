@@ -1,8 +1,11 @@
 const articlesStyles = {
   container: {
-    marginTop: '-17px',
+    // marginTop: '-17px',
     marginBottom: '10px',
-    backgroundColor: '#9035D3'
+    backgroundColor: '#BBE1E9',
+    background: '#BBE1E9',
+    background: 'linear-gradient(180deg, #A5D3DC 0%, #BBE1E9 100%)',
+    borderRadius: '20px'
   },
   fullwidth: {
     width: '100%',
@@ -13,13 +16,15 @@ const articlesStyles = {
     marginTop: '30px',
     // marginLeft: '20px',
     textAlign: 'center',
-    fontSize: '24px',
-    fontWeight: 500,
-    lineHeight: '110%',
-    color: '#fff'
+    fontSize: '22px',
+    fontWeight: 700,
+    lineHeight: '120%',
+    color: '#334346'
   },
   column: {
-    backgroundColor: '#9035D3'
+    backgroundColor: '#BBE1E9',
+    background: '#BBE1E9',
+    background: 'linear-gradient(180deg, #A5D3DC 0%, #BBE1E9 100%)'
     // backgroundImage:
     //   "url('https://res.cloudinary.com/npoipe/image/upload/v1635665594/emal%20template%20halloween/story_mhlc6t.jpg')",
     // backgroundRepeat: 'no-repeat',
@@ -34,10 +39,10 @@ const articlesStyles = {
     textAlign: 'center',
     marginLeft: '20px',
     marginRight: '20px',
-    fontSize: '14px',
-    fontWeight: 300,
-    lineHeight: '21px',
-    color: '#fff'
+    fontSize: '18px',
+    fontWeight: 400,
+    lineHeight: '157%',
+    color: '#334346'
   },
   btn: {
     margin: '7px auto',
@@ -54,6 +59,9 @@ const articlesStyles = {
   },
   link: {
     color: '#000000'
+  },
+  highlight: {
+    fontWeight: 700
   }
 }
 

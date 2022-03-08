@@ -18,7 +18,9 @@ const ChooseProgram = () => {
             <p style={stls.testimonials}></p>
             <div style={stls.btn}>
               <Link
-                href={'https://ipo.msk.ru/professionalnaja-perepodgotovka/'}>
+                href={
+                  'https://ipo.msk.ru/?utm_source=email&utm_campaign=international_women_day'
+                }>
                 <span style={stls.link}>Выбрать программу</span>
               </Link>
             </div>

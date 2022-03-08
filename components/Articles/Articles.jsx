@@ -7,17 +7,19 @@ const Articles = () => {
       <Row>
         <Column style={stls.column}>
           <div style={stls.fullwidth}>
-            <p style={stls.title}>Интересные статьи от НАНО «ИПО»</p>
+            <p style={stls.title}>Официально заявляем!</p>
             <p style={stls.p}>
-              Понятие «сильная личность» определяется не какой-либо одной
-              особенностью, а целым комплексом устойчивых характеристик.
+              Нам надоела зима! <br />
+              Хотим тепла, солнца, красоты и Весны! <br />
+              Присоединяйтесь к нашим тёплым, Весенним группам, <br /> которые
+              начинают обучение с <span style={stls.highlight}>21 марта</span>.
             </p>
             <div style={stls.btn}>
               <Link
                 href={
-                  'https://ipo.msk.ru/novosti/pr-na-milliard-chemu-uchit-biznes-istorija-apple/'
+                  'https://ipo.msk.ru/?utm_source=email&utm_campaign=international_women_day'
                 }>
-                <span style={stls.link}>Читать статью</span>
+                <span style={stls.link}>Присоединится!</span>
               </Link>
             </div>
           </div>
