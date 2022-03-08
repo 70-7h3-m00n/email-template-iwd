@@ -7,10 +7,11 @@ const Hello = () => {
       <Row style={stls.fullwidth}>
         <Column style={stls.fullwidth}>
           <div style={stls.fullwidth}>
-            <p style={stls.title}>Здравствуйте!</p>
             <p style={stls.p} align='center'>
-              С нами даже в Halloween вам не грозят мрачные истории. <br />Не верите?
-              Мы докажем.
+              Пусть Ваше настроение всегда будет весенним, смех - искренним,{' '}
+              <br />
+              впечатления - незабываемыми, образы - женственными <br /> и
+              гармоничными!
             </p>
           </div>
         </Column>
