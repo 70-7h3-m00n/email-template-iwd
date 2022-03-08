@@ -12,10 +12,10 @@ const bannerStyles = {
   },
   column: {
     backgroundImage:
-      "url('https://res.cloudinary.com/npoipe/image/upload/v1635664354/emal%20template%20halloween/hero_afzxnt.jpg')",
+      "url('https://res.cloudinary.com/npoipe/image/upload/v1646735816/email-template-iwd/hero_gxkc8g.jpg')",
     minWidth: '600px',
     width: '600px',
-    height: '300px'
+    minHeight: '516px'
   },
   btn: {
     width: '100%',
