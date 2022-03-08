@@ -4,7 +4,7 @@ const footerLinksStyles = {
     fontWeight: 300,
     lineHeight: '13px',
     textAlign: 'center',
-    backgroundColor: '#813CD0',
+    backgroundColor: '#5C9FAC',
     color: '#fff'
   },
   link: {
